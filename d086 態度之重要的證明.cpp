@@ -2,14 +2,15 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   string a;
 
-  while(cin >> a) {
-    if (a == "0") {
+  while (cin >> a)
+  {
+    if (a == "0")
+    {
       break;
     }
-
-    
   }
 }

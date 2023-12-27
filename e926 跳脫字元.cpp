@@ -2,6 +2,7 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
   cout << "|'o'|\n\\^_^/\n(\"o\")\n[-%-]";
 }

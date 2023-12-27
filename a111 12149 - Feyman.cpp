@@ -3,22 +3,29 @@
 
 using namespace std;
 
-long long power (int a, long long b) {
-  if (a > 0) {
+long long power(int a, long long b)
+{
+  if (a > 0)
+  {
     power(a - 1, b + pow(a, 2));
-  } else {
+  }
+  else
+  {
     return b;
   }
 }
 
-int main() {
+int main()
+{
   int a;
 
-  while(cin >> a) {
-    if (a == 0) {
+  while (cin >> a)
+  {
+    if (a == 0)
+    {
       break;
     }
-    
+
     cout << power(a, 0) << "\n";
   }
 }

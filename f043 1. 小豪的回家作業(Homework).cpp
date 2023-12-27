@@ -2,12 +2,15 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   int a;
   int b;
 
-  while(cin >> a >> b) {
-    if (a - b == 0) {
+  while (cin >> a >> b)
+  {
+    if (a - b == 0)
+    {
       b -= 3;
     }
 
@@ -15,9 +18,12 @@ int main() {
 
     c = a - b;
 
-    if (b < c) {
+    if (b < c)
+    {
       cout << b << "+" << c << "=" << a << "\n";
-    } else {
+    }
+    else
+    {
       cout << c << "+" << b << "=" << a << "\n";
     }
   }

@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   int a;
   int b;
 
@@ -11,11 +12,13 @@ int main() {
   cin >> b;
 
   if (
-    a % b == 0 || 
-    to_string(a).find(to_string(b)) != string::npos
-  ) {
+      a % b == 0 ||
+      to_string(a).find(to_string(b)) != string::npos)
+  {
     cout << "YES\n";
-  } else {
+  }
+  else
+  {
     cout << "NO\n";
   }
 }

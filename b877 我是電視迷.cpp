@@ -6,11 +6,9 @@ using namespace std;
 int main()
 {
   int a;
-  long long b;
+  int b;
 
-  cin >> a;
+  cin >> a >> b;
 
-  b = pow(2, pow(10, a));
-
-  cout << b;
+  cout << ((b - a) % 100 + 100) % 100;
 }

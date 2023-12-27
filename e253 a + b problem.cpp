@@ -2,6 +2,7 @@
 
 using namespace std;
 
-int main() {
-  cout << 381654729;
+int main()
+{
+    cout << "^ & << ta tb";
 }

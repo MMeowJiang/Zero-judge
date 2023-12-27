@@ -3,16 +3,19 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   string a;
   int i = 0;
 
   getline(cin, a);
 
-  for (char c : a) {
+  for (char c : a)
+  {
     cout << (int)c;
 
-    if (i != a.length() - 1) {
+    if (i != a.length() - 1)
+    {
       cout << "_";
     }
 

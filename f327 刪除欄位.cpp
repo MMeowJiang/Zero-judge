@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   int n1 = 0;
   int n2 = 0;
 
@@ -11,11 +12,13 @@ int main() {
 
   cin >> s1 >> s2;
 
-  for (int i = 0 ; i < s1.size() ; i++) {
+  for (int i = 0; i < s1.size(); i++)
+  {
     n1 = n1 * 26 + s1[i] - 'A' + 1;
   }
 
-  for (int i = 0 ; i < s2.size() ; i++) {
+  for (int i = 0; i < s2.size(); i++)
+  {
     n2 = n2 * 26 + s2[i] - 'A' + 1;
   }
 
