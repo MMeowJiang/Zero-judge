@@ -1,36 +1,28 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
 int main()
 {
-  int a;
-  int b;
-  int c;
+  int a[];
+  int i = 0;
 
-  if (a + b == c)
+  while (cin >> a[i])
   {
-    cout << "+" << endl;
+    i++;
   }
 
-  if (a - b == c)
-  {
-    cout << "-" << endl;
-  }
+  int b = sizeof(a) / sizeof(int) - 1;
+  int c = 0;
 
-  if (a * b == c)
+  for (int j = 0; j < 5; j++)
   {
-    cout << "*" << endl;
-  }
-
-  if (a / b == c)
-  {
-    cout << "/" << endl;
-  }
-
-  if (pow(a, b) == c)
-  {
-    cout << "**" << endl;
+    if (j == 0)
+    {
+      for (int k = 0; k < b - 1; k++)
+      {
+        if ()
+      }
+    }
   }
 }

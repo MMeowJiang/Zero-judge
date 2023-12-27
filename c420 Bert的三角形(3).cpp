@@ -12,7 +12,7 @@ int main()
   {
     for (int j = a - i - 1; j >= 0; j--)
     {
-      cout << "_";
+      cout << " ";
     }
 
     for (int j = 1; j <= i * 2 - 1; j++)
@@ -22,7 +22,7 @@ int main()
 
     for (int j = a - i - 1; j >= 0; j--)
     {
-      cout << "_";
+      cout << " ";
     }
 
     cout << "\n";
