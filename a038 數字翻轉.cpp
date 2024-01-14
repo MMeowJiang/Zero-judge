@@ -8,10 +8,14 @@ using namespace std;
 int main()
 {
   string s;
+
   cin >> s;
   reverse(s.begin(), s.end());
+  
   stringstream ss(s);
+
   int a;
+
   ss >> a;
   cout << a << endl;
 }
